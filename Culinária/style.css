@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    border: none;
+    padding: 0%;
+}
+header{
+    background-color: #ECA457;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+}
+nav{
+    margin-right: 100px;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section .imgFundo{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.saudáveis .titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #ECA457;
+    margin-bottom: 50px;
+}
+.container .titulo{
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ECA457;
+}
+.saudáveis .texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+    margin-left: 250px;
+    margin-bottom: 190px;  
+}
+.espaço{
+    background-color: #ECA457;
+    height: 3px;
+    border: none;
+    margin: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#blog img{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+#blog .titBlog{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: #ECA457;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #ECA457;
+    padding: 20px;
+    text-align: center;
+}
+footer img{
+    width: 150px;
+    height: 150px;
+}
+containerBlog .titReceita{
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container img{
+    width: 150px;
+    height: 150px;
+}
+.container h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+}
+.container p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #AFA7A7;
+    font-size: 25px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px; /* Espaço entre os elementos */
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+}
+#receitas h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #ECA457;
+    margin-bottom: 100px;
+} 
+#blog img{
+    width: 150px;
+    height: 150px;
+}
+.containerChef{
+    display: flex;
+    
+    
+}
+#containerTexto{ 
+    margin-left: 15px;
+    text-align: center;
+    
+}
+#containerTexto h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+#containerTexto p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: #AFA7A7;
+    text-align: justify;
+    font-size: 30px;
+
+}
+.containerGeral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.pao {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 180px;
+}
+.bolo{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 100px;
+}
+
+.frango{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 100px;
+    margin-top: 150px;
+}
+
+.peixe{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 180px;
+    margin-top: 150px; 
+}
+

@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+header{
+    background-color: #648769;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+header img{
+    width: 400px;
+    height: 300px;
+    padding-right: 250px;
+}
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color: white;
+    padding-left: 250px;
+}
+.subTitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding-left: 180px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    font-weight: 100;
+}
+span{
+    color: #2A5B31;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+div .img{
+    width: 150px;
+    height: 150px;
+    
+}
+.titBloco{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: left;
+}
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: left;
+}
+footer{
+    background-color: #648769;
+    padding: 70px;
+}
+footer h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
